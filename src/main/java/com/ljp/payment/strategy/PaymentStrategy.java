@@ -1,6 +1,6 @@
-package com.payment.strategy;
+package com.ljp.payment.strategy;
 
-import com.payment.enums.PaymentType;
+import com.ljp.payment.enums.PaymentType;
 
 public interface PaymentStrategy {
 

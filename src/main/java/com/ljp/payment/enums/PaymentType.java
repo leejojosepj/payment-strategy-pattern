@@ -1,4 +1,4 @@
-package com.payment.enums;
+package com.ljp.payment.enums;
 
 public enum PaymentType {
   CREDIT_CARD,

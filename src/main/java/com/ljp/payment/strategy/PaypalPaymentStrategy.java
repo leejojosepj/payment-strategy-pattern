@@ -1,23 +1,22 @@
-package com.payment.strategy;
+package com.ljp.payment.strategy;
 
-import com.payment.enums.PaymentType;
+import com.ljp.payment.enums.PaymentType;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-public class CreditCardPaymentStrategy implements PaymentStrategy {
+public class PaypalPaymentStrategy implements PaymentStrategy {
   /**
    * @param amount
    */
   @Override
   public String doPayment(Double amount) {
-    log.info("Proceed with Credit Card payment..");
+    log.info("Proceed with Google Pay payment..");
     /*
      * We can incorporate additional logic here.
      * */
-    return String.format(
-        "Payment of %.2f has been successfully processed using a Credit Card.", amount);
+    return String.format("Payment of %.2f has been successfully processed using a Paypal.", amount);
   }
 
   /**
@@ -25,6 +24,6 @@ public class CreditCardPaymentStrategy implements PaymentStrategy {
    */
   @Override
   public PaymentType paymentType() {
-    return PaymentType.CREDIT_CARD;
+    return PaymentType.PAYPAL;
   }
 }

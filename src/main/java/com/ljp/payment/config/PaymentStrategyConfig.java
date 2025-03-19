@@ -1,7 +1,7 @@
-package com.payment.config;
+package com.ljp.payment.config;
 
-import com.payment.enums.PaymentType;
-import com.payment.strategy.PaymentStrategy;
+import com.ljp.payment.enums.PaymentType;
+import com.ljp.payment.strategy.PaymentStrategy;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;

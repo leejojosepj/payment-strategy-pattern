@@ -8,7 +8,7 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.payment</groupId>
+	<groupId>com.ljp.payment</groupId>
 	<artifactId>payment-strategy-pattern</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>payment-strategy-pattern</name>
