@@ -36,6 +36,8 @@ GET /CREDIT_CARD/500.00
 
 
 
+### Check the link :
+https://medium.com/@leejojosepj_76404/strategy-design-pattern-using-java-41061228f8bf
 
 
 
